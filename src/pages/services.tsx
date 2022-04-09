@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                             alignSelf={"center"}
                             position={"relative"}
                         >
-                            <a href="https://kisegraph.vercell.app/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://kisegraph.vercel.app/" target="_blank" rel="noopener noreferrer">
                                 <Button
                                     colorScheme={"blue"}
                                     bg={"blue.400"}

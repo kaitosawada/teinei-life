@@ -40,7 +40,33 @@ const IndexMain: React.FC = () => {
                                 bg: "blue.500",
                             }}
                         >
-                            Twitter: _15R <FaExternalLinkAlt style={{ marginLeft: "8px" }} />
+                            Twitter: @_15R <FaExternalLinkAlt style={{ marginLeft: "8px" }} />
+                        </Button>
+                    </a>
+                    <a href="https://soundcloud.com/kaito-sawada" target="_blank" rel="noopener noreferrer">
+                        <Button
+                            colorScheme={"orange"}
+                            bg={"orange.400"}
+                            rounded={"full"}
+                            px={6}
+                            _hover={{
+                                bg: "orange.500",
+                            }}
+                        >
+                            SoundCloud <FaExternalLinkAlt style={{ marginLeft: "8px" }} />
+                        </Button>
+                    </a>
+                    <a href="https://torobe-mito.tumblr.com/" target="_blank" rel="noopener noreferrer">
+                        <Button
+                            colorScheme={"yellow"}
+                            bg={"yellow.400"}
+                            rounded={"full"}
+                            px={6}
+                            _hover={{
+                                bg: "yellow.500",
+                            }}
+                        >
+                            Tumblr <FaExternalLinkAlt style={{ marginLeft: "8px" }} />
                         </Button>
                     </a>
                     <Link href="/drawings" passHref>
