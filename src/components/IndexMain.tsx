@@ -69,7 +69,7 @@ const IndexMain: React.FC = () => {
                             Tumblr <FaExternalLinkAlt style={{ marginLeft: "8px" }} />
                         </Button>
                     </a>
-                    <Link href="/drawings" passHref>
+                    {/* <Link href="/drawings" passHref>
                         <Button
                             colorScheme={"red"}
                             bg={"red.400"}
@@ -81,7 +81,7 @@ const IndexMain: React.FC = () => {
                         >
                             drawings
                         </Button>
-                    </Link>
+                    </Link> */}
                     <Link href="/services" passHref>
                         <Button
                             colorScheme={"green"}
