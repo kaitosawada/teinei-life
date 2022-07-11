@@ -43,6 +43,32 @@ const IndexMain: React.FC = () => {
                             Twitter: @_15R <FaExternalLinkAlt style={{ marginLeft: "8px" }} />
                         </Button>
                     </a>
+                    <a href="https://www.youtube.com/channel/UCNU_xJ1NjvRZzO2yFLneWig/" target="_blank" rel="noopener noreferrer">
+                        <Button
+                            colorScheme={"red"}
+                            bg={"red.400"}
+                            rounded={"full"}
+                            px={6}
+                            _hover={{
+                                bg: "red.500",
+                            }}
+                        >
+                            YouTube <FaExternalLinkAlt style={{ marginLeft: "8px" }} />
+                        </Button>
+                    </a>
+                    <Link href="/services" passHref>
+                        <Button
+                            colorScheme={"green"}
+                            bg={"green.400"}
+                            rounded={"full"}
+                            px={6}
+                            _hover={{
+                                bg: "green.500",
+                            }}
+                        >
+                            services
+                        </Button>
+                    </Link>
                     <a href="https://soundcloud.com/kaito-sawada" target="_blank" rel="noopener noreferrer">
                         <Button
                             colorScheme={"orange"}
@@ -82,19 +108,6 @@ const IndexMain: React.FC = () => {
                             drawings
                         </Button>
                     </Link> */}
-                    <Link href="/services" passHref>
-                        <Button
-                            colorScheme={"green"}
-                            bg={"green.400"}
-                            rounded={"full"}
-                            px={6}
-                            _hover={{
-                                bg: "green.500",
-                            }}
-                        >
-                            services
-                        </Button>
-                    </Link>
                     <a href="https://hihaheho.com/" target="_blank" rel="noopener noreferrer">
                         <Button variant={"link"} colorScheme={"blue"}>
                             HIHAHEHO Studio <FaExternalLinkAlt style={{ marginLeft: "8px" }} />
