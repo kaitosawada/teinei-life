@@ -9,12 +9,6 @@ const nextConfig = {
 
     return config;
   },
-  headers: [
-    {
-      source: "/.well-known/nostr.json",
-      headers: [{ key: "Access-Control-Allow-Origin", value: "*" }],
-    },
-  ],
 };
 
 module.exports = nextConfig;
