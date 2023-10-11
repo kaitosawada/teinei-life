@@ -37,6 +37,19 @@ const Home: NextPage = () => {
                             alignSelf={"center"}
                             position={"relative"}
                         >
+                            <a href="https://snowy-town-maker-view.fly.dev/" target="_blank" rel="noopener noreferrer">
+                                <Button
+                                    colorScheme={"blue"}
+                                    bg={"blue.100"}
+                                    rounded={"full"}
+                                    px={6}
+                                    _hover={{
+                                        bg: "blue.200",
+                                    }}
+                                >
+                                    雪の降る街メーカー <FaExternalLinkAlt style={{ marginLeft: "8px" }} />
+                                </Button>
+                            </a>
                             <a href="https://kisegraph.vercel.app/" target="_blank" rel="noopener noreferrer">
                                 <Button
                                     colorScheme={"blue"}
