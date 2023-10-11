@@ -109,7 +109,15 @@ const IndexMain: React.FC = () => {
                         </Button>
                     </Link> */}
                     <a href="https://hihaheho.com/" target="_blank" rel="noopener noreferrer">
-                        <Button variant={"link"} colorScheme={"blue"}>
+                        <Button
+                            colorScheme={"pink"}
+                            bg={"pink.400"}
+                            rounded={"full"}
+                            px={6}
+                            _hover={{
+                                bg: "pink.500",
+                            }}
+                        >
                             HIHAHEHO Studio <FaExternalLinkAlt style={{ marginLeft: "8px" }} />
                         </Button>
                     </a>
